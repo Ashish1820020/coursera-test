@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Coursera!</title>
+    <style type="text/css">
+
+        /*Single Element css*/
+        body{
+            margin: 10px;
+        }
+
+        /*Single Element Selector*/
+        h1{
+            text-align: center;
+            color: blue;
+            padding: 10px;
+            font-size: 40px;
+           
+        }
+
+        /*Id Selector*/
+        #content3{
+            background: lightyellow;
+        }
+
+         /*Multi Element Selector*/
+        #content3, .container{
+           margin-right: 100px;
+           margin-left: 100px;
+            color: gray;
+        }
+
+        /*Class Selector(Class Selector < MultiSelector)*/
+        .container{
+            color: yellowgreen;
+        }
+
+        /*Element With Class Selector*/
+         p.container{
+           background: darkblue;
+           text-align: left;
+        }
+
+        /*Child Selector*/
+        article > p{
+            color: pink;
+        }
+
+        /*Descendant Selector*/
+        article h2{
+            color: red;
+        }
+
+         #content3 > p{
+            font-size: 30;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hello Coursera! It's my first git upload.</h1>
+    <div class="container">
+    <h2>Content-1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+    <article>
+    <h2>Content-2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </article>
+    </div>
+
+    <div id="content3">
+    <h2>Content-3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+</body>
+</html>
